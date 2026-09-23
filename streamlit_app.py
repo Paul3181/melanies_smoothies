@@ -3,6 +3,7 @@ from snowflake.snowpark.functions import col
 import streamlit as st
 import tempfile
 import requests  
+import pandas
 
 
 @st.cache_resource
